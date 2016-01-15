@@ -1,7 +1,7 @@
 {
 "update_url":"http://clients2.google.com/service/update2/crx",
 	"name": "Electsys++ 交大选课插件",
-	"version": "2.4",
+	"version": "2.4.0",
 	"icons": { "128": "logo_new.png" },
 	"description": "上海交通大学选课网优化工具",
     "homepage_url": "http://laohyx.com/",
@@ -12,7 +12,7 @@
     },
 	"content_scripts": [
 		{
-            "matches": ["http://*/*"
+            "matches": ["http://*.sjtu.edu.cn/*"
                      ],
             "js": ["content_script/jquery-1.6.1.min.js",
                  "content_script/lesson.js",
