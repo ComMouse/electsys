@@ -1,4 +1,4 @@
-jQuery.get(
+﻿jQuery.get(
     chrome.extension.getURL("manifest.json"),
     function(data){
         localStorage['extension_version'] = data['version'];
@@ -47,7 +47,7 @@ function inUrl(url){
 		return true;
 }
 
-opscore_year = "2012-2013";
+opscore_year = "2015-2016";
 opscore_semester = "1";
 
 function getSemester(){
